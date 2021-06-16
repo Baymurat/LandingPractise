@@ -69,15 +69,16 @@ a {
     height: 19px;
     /* top: 200px; */
     position: relative;
+    margin-top: 30px;
 }
 
 .second-line__head-menu {
     /* position: relative; */
-    width: 1110px;
+    /* width: 1110px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0 auto; */
+    margin-bottom: 20px; 
 }
 
 .left-content > span {
@@ -124,6 +125,78 @@ a {
     height: 40px;
     background: #FFFFFF;
     border: 2px solid #66C05D;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.divider {
+    border: 1px solid #EFEFEF;
+}
+
+main {
+    background-image: url("../images/Rectangle_2.png");
+    width: 100%;
+    /* height: 604px; */
+    margin-top: 30px;
+}
+
+.sale {
+    display: flex;
+    height: 604px;
+    align-items: center;
+}
+
+.group {
+    width: 308px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second-line__head-menu > .wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap {
+    width: 1110px;
+    margin: 0 auto;
+    /* margin-bottom: 20px; */
+}
+
+.super__chair {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.stock__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.group > button {
+    font-family: "Roboto", "sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+    width: 170px;
+    height: 40px;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 40px;
 }
