@@ -129,6 +129,8 @@ main {
     height: 604px;
     align-items: center;
     background-image: url("../images/Rectangle_2.png");
+    background-repeat: no-repeat;
+    background-position:center center;
 }
 
 .group {
