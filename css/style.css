@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background: #030303;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 1920px;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul li {
+    display: inline-block;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    width: 85px;
+    height: 26px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+nav.header ul {
+    width: 775px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img .logo {
+    width: 199px;
+    height: 33px;
+}
+
+main {
+    position: relative;
+}
+
+.Welcome {
+    width: 1920px;
+    height: 842px;
+    background: #030303;
+}
+
+.welcome_offer {
+    position: relative;
+    width: 598px;
+    height: 388px;  
+    padding-top: 150px;
+    z-index: 2;
+}
+
+.welcome_text_1 {
+    margin: 0;
+    font-family: 'Forum', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* or 112% */
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.Welcome .wrapper {
+    position: relative;
+    height: 810px;
+}
+
+.welcome_text_2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    letter-spacing: 2px;
+    
+    color: #FFFFFF;
+}
+
+.welcome_button {
+    position: absolute;
+    width: 360px;
+    height: 75px;
+    left: 0px;
+    bottom: 0px;
+
+    border: 0;
+    background: #710707;
+    border-radius: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.mona_lisa_portret {
+    position: absolute;
+    width: 1000px;
+    height: 810px;
+    left: 440px;
+    top: 0px;
+    z-index: 1;
+}
+
+.slider {
+    position: absolute;
+    width: 452px;
+    height: 120px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: #030303;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 74px;
+}
+
+.welcome_slide_num {
+    display: flex;
+    justify-content: space-between;
+    width: 76px;
+    height: 40px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    /* identical to box height, or 182% */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.carousel_pagination {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.slide_pagination {
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    height: 8px;
+}
+
+.arrow_left {
+    display: flex;
+}
+
+.arrow_right {
+    display: flex;
+}
