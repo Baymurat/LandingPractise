@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+p {
+    margin: 0;
+}
+
 .wrapper {
     width: 1440px;
     margin: 0 auto;
@@ -199,4 +203,111 @@ main {
 
 .arrow_right {
     display: flex;
+}
+
+.Virtual_tour {
+    background: #FFFFFF;
+    height: 1266px;
+    width: 1920px;
+}
+
+.tour_content {
+    width: 1440px;
+    height: 1116px;
+    margin-top: 75px;
+}
+
+.tour_main_title {
+    width: 544px;
+    height: 90px;
+
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #9D8665;
+}
+
+.virtual_tour_rectangle {
+    width: 1440px;
+    height: 3px;
+    background: #710707;
+    border-radius: 0px;
+    margin-top: 25px;
+}
+
+.tour_variants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.another_tour {
+    width: 440px;
+    height: 424px;
+    margin-top: 75px;
+}
+
+.tour_image {
+    width: 440px;
+    height: 285px;
+}
+
+.tour_title {
+    width: 252px;
+    height: 35px;
+    margin-top: 25px;
+
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.view_360 {
+    width: 165px;
+    height: 26px;
+    margin-top: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.view_panorama {
+    width: 240px;
+    height: 21px;
+    margin-top: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.rectangle_div {
+    width: 300px;
+    height: 2px;
+    margin-top: 10px;
+    background: #710707;
+    border-radius: 0px;
 }
