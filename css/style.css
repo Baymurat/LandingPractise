@@ -311,3 +311,77 @@ main {
     background: #710707;
     border-radius: 0px;
 }
+
+.Picture_explore {
+    width: 1920px;
+    height: 865px;
+
+    background: #030303;
+    border-radius: 0px;
+}
+
+.section_frame {
+    height: 715px;
+    padding-top: 75px;
+    position: relative;
+}
+
+.explore_main_title {
+    width: 660px;
+    height: 90px;
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.explore_rectangle_div {
+    width: 660px;
+    height: 3px;
+
+    margin-top: 25px;
+    margin-bottom: 75px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+.explore_text {
+    width: 645px;
+    height: 77px;
+    margin-top: 25px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    /* or 175% */
+
+    color: #FFFFFF;
+}
+
+.explore_picture_container {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 720px;
+    height: 700px;
+}
+
+.explore_picture_container .picture_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.explore_slider {
+    position: absolute;
+    right: 260px;
+}
