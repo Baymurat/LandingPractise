@@ -12,6 +12,11 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -263,6 +268,71 @@
                             <img src="./assets/gallery_section/art_3_4.png" alt="">
                         </div>
                         <div class="art_foot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Buy_tickets">
+            <div class="wrapper">
+                <div class="section_frame">
+                    <div class="buy_tickects_title">
+                        <p>buy tickets</p>
+                    </div>
+                    <div class="buy_tickets_rectangle"></div>
+                    <div class="tickects_form">
+                        <img src="./assets/tickets_section/tickets_image.png" alt="">
+                        <div class="tickets_form_inputs">
+                            <div class="column_1">
+                                <p class="ticket_type">Ticket Type</p>
+                                <div class="inputs">
+                                    <div class="input_row">
+                                        <input id="permanent_exhibition" type="radio">
+                                        <label for="permanent_exhibition">Permanent exhibition</label>
+                                    </div>
+                                    <div class="input_row">
+                                        <input id="temporary_exhibition" type="radio">
+                                        <label for="temporary_exhibition">Temporary exhibition</label>
+                                    </div>
+                                    <div class="input_row">
+                                        <input id="combined_admission" type="radio">
+                                        <label for="combined_admission">Combined Admission</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column_2">
+                                <p class="text_amount">Amount</p>
+                                <div class="colmn_2_inuts">
+                                    <div class="amount_input">
+                                        <p>Basic 18+</p>
+                                        <div class="number-input">
+                                            <button
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                            <button
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                class="plus"></button>
+                                        </div>
+                                    </div>
+                                    <div class="amount_input">
+                                        <p>Senior 65+</p>
+                                        <div class="number-input">
+                                            <button
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                            <button
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                class="plus"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="total_prise">Total €220</p>
+                            </div>
+                        </div>
+
+                        <button class="buy_now">
+                             Buy Now
+                        </button>
                     </div>
                 </div>
             </div>

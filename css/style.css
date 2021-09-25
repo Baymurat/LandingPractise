@@ -681,3 +681,335 @@ img.triangle {
     height: 360px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
 }
+
+.Buy_tickets {
+    width: 1920px;
+    height: 893px;
+    color: #FFFFFF;
+}
+
+.Buy_tickets .section_frame {
+    width: 1440px;
+    height: 743px;
+    margin-top: 75px;
+}
+
+.buy_tickects_title {
+    width: 472px;
+    height: 90px;
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #9D8665;
+}
+
+.buy_tickets_rectangle {
+    width: 1440px;
+    height: 3px;
+    margin-top: 25px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+.tickects_form {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.tickets_form_inputs .column_1 {
+    width: 270px;
+    height: 211px;
+}
+
+.tickets_form_inputs .column_2 {
+    width: 150px;
+    height: 341px;
+}
+
+.tickets_form_inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+}
+
+.ticket_type {
+    width: 156px;
+    height: 33px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.text_amount {
+    float: right;
+    width: 100px;
+    height: 33px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+label {
+    /* width: 230px; */
+    text-align: right;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+input[type="radio"] {
+    background: #000000;
+    color: #000000;
+    margin-top: -2px;
+    margin-right: 23px;
+}
+
+.column_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_row {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 25px;
+}
+
+input[type="radio"] {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    padding: 3px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+  }
+  
+  /* appearance for checked radiobutton */
+input[type="radio"]:checked {
+    background-color: #000000;
+}
+
+.column_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+  
+.amount_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 91px;
+    margin-top: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+  /* -____________________ */
+
+/* input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+} */
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    /* border: 2px solid #ddd; */
+    display: inline-flex;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+}
+
+.number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    /* width: 3rem;
+    height: 3rem; */
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.number-input button::before,
+.number-input button::after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    /* width: 18px;
+    height: 38px; */
+
+    width: 1rem;
+    height: 2px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+}
+
+
+.dsada {
+    width: 18px;
+    height: 38px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.number-input button.plus::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+    /* width: 12px;
+    height: 26px; */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+
+    max-width: 5rem;
+    padding: 0;
+    border: solid transparent;
+    border-width: 0 2px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+button {
+    padding: 0;
+}
+
+.total_prise {
+    width: 150px;
+    height: 33px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 1.65px;
+
+    color: #000000;
+
+}
+
+.colmn_2_inuts {
+    margin-bottom: 50px;
+}
+
+.buy_now {
+    position: absolute;
+    right: 0;
+    bottom: 107px;
+
+    width: 175px;
+    height: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+
+    background: #000000;
+    border-radius: 2px;
+    border: none;
+}
