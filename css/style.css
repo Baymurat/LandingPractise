@@ -1,6 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 p {
@@ -685,6 +689,7 @@ img.triangle {
 .Buy_tickets {
     width: 1920px;
     height: 893px;
+    overflow: hidden;
     color: #FFFFFF;
 }
 
@@ -1012,4 +1017,81 @@ button {
     background: #000000;
     border-radius: 2px;
     border: none;
+}
+
+.Contacts {
+    overflow: hidden;
+    width: 1920px;
+    height: 962px;
+    color: #FFFFFF;
+}
+
+.Contacts .section_frame {
+    margin-top: 75px;
+    width: 1440px;
+    height: 813px;
+}
+
+.contacts_title {
+    width: 397px;
+    height: 90px;
+
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #9D8665;
+}
+
+.contacts_rectangle {
+    width: 1440px;
+    height: 3px;
+    margin-top: 25px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+.contacts_content {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_info {
+    width: 282px;
+    height: 244px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.contacts_info p {
+    margin-top: 25px;
+}
+
+.info_title {
+    width: 227px;
+    height: 66px;
+    margin-bottom: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
 }
