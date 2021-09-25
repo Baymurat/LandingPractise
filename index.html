@@ -309,7 +309,7 @@
                                         <div class="number-input">
                                             <button
                                                 onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
-                                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                            <input class="quantity" min="0" max="20" name="quantity" value="1" type="number">
                                             <button
                                                 onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
                                                 class="plus"></button>
@@ -320,7 +320,7 @@
                                         <div class="number-input">
                                             <button
                                                 onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
-                                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                            <input class="quantity" min="0" max="20" name="quantity" value="1" type="number">
                                             <button
                                                 onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
                                                 class="plus"></button>
@@ -366,7 +366,65 @@
         </section>
     </main>
     <footer>
-        
+        <div class="wrapper">
+            <div class="footer_content">
+                <div class="logo">
+                    <img src="./assets/logo_2.svg" alt="Logo">
+                    <p>louvre</p>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <div class="column">
+                            <ul>
+                                <li><a href="">Visiting</a></li>
+                                <li><a href="">Explore</a></li>
+                                <li><a href="">Video</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul>
+                                <li><a href="">Gallery</a></li>
+                                <li><a href="">Tickets</a></li>
+                                <li><a href="">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="social">
+                    <div class="social_icon">
+                        <a class="social_icon" href="http://youtube.com">
+                            <img src="./assets/footer/youtube.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a class="social_icon" href="http://instagram.com">
+                            <img src="./assets/footer/instagram.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a class="social_icon" href="http://facebook.com">
+                            <img src="./assets/footer/facebook.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a class="social_icon" href="http://twitter.com">
+                            <img src="./assets/footer/twitter.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a class="social_icon" href="http://printerest.com">
+                            <img src="./assets/footer/printerest.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_rectangle"></div>
+        <div class="last_string">
+            <p>© 2021</p>
+            <p>The Rolling Scopes School</p>
+            <p>Eblan Eblanov</p>
+        </div>
     </footer>
 </body>
 
