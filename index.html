@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -17,8 +18,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-    <title>Document</title>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+
+    <title>Document</title>
 </head>
 
 <body>
@@ -73,7 +75,7 @@
             </div>
         </section>
 
-        <section class="Virtual_tour">
+        <section id="Visiting" class="Virtual_tour">
             <div class="wrapper">
                 <div class="tour_content">
                     <p class="tour_main_title">virtual tour</p>
@@ -126,7 +128,7 @@
             </div>
         </section>
 
-        <section class="Picture_explore">
+        <section id="Explore" class="Picture_explore">
             <div class="wrapper">
                 <div class="section_frame">
                     <p class="explore_main_title">picture explore</p>
@@ -146,7 +148,7 @@
             </div>
         </section>
 
-        <section class="Video_journey">
+        <section id="Video" class="Video_journey">
             <div class="wrapper">
                 <div class="section_frame">
                     <div class="video_journey_title">
@@ -243,7 +245,7 @@
             </div>
         </section>
 
-        <section class="Art_gallery">
+        <section id="Gallery" class="Art_gallery">
             <div class="wrapper">
                 <div class="section_frame">
                     <div class="art_gallery_title">
@@ -274,7 +276,7 @@
             </div>
         </section>
 
-        <section class="Buy_tickets">
+        <section id="Tickets" class="Buy_tickets">
             <div class="wrapper">
                 <div class="section_frame">
                     <div class="buy_tickects_title">
@@ -309,7 +311,8 @@
                                         <div class="number-input">
                                             <button
                                                 onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
-                                            <input class="quantity" min="0" max="20" name="quantity" value="1" type="number">
+                                            <input class="quantity" min="0" max="20" name="quantity" value="1"
+                                                type="number">
                                             <button
                                                 onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
                                                 class="plus"></button>
@@ -320,7 +323,8 @@
                                         <div class="number-input">
                                             <button
                                                 onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
-                                            <input class="quantity" min="0" max="20" name="quantity" value="1" type="number">
+                                            <input class="quantity" min="0" max="20" name="quantity" value="1"
+                                                type="number">
                                             <button
                                                 onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
                                                 class="plus"></button>
@@ -343,7 +347,7 @@
             <img src="./assets/parallax_1.png" alt="">
         </div>
 
-        <section class="Contacts">
+        <section id="Contacts" class="Contacts">
             <div class="wrapper">
                 <div class="section_frame">
                     <div class="contacts_title">
@@ -376,16 +380,16 @@
                     <nav>
                         <div class="column">
                             <ul>
-                                <li><a href="">Visiting</a></li>
-                                <li><a href="">Explore</a></li>
-                                <li><a href="">Video</a></li>
+                                <li><a href="#Visiting">Visiting</a></li>
+                                <li><a href="#Explore">Explore</a></li>
+                                <li><a href="#Video">Video</a></li>
                             </ul>
                         </div>
                         <div class="column">
                             <ul>
-                                <li><a href="">Gallery</a></li>
-                                <li><a href="">Tickets</a></li>
-                                <li><a href="">Contacts</a></li>
+                                <li><a href="#Gallery">Gallery</a></li>
+                                <li><a href="#Tickets">Tickets</a></li>
+                                <li><a href="#Contacts">Contacts</a></li>
                             </ul>
                         </div>
                     </nav>

@@ -868,17 +868,6 @@ input[type="radio"]:checked {
 
   /* -____________________ */
 
-/* input[type="number"] {
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
-    appearance: textfield;
-}
-
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-} */
-
 input[type="number"] {
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
@@ -891,7 +880,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .number-input {
-    /* border: 2px solid #ddd; */
     display: inline-flex;
     border: 3px solid #000000;
     box-sizing: border-box;
@@ -912,8 +900,6 @@ input[type=number]::-webkit-outer-spin-button {
     justify-content: center;
     width: 50px;
     height: 50px;
-    /* width: 3rem;
-    height: 3rem; */
     cursor: pointer;
     margin: 0;
     position: relative;
@@ -924,8 +910,6 @@ input[type=number]::-webkit-outer-spin-button {
     display: inline-block;
     position: absolute;
     content: '';
-    /* width: 18px;
-    height: 38px; */
 
     width: 1rem;
     height: 2px;
@@ -933,30 +917,11 @@ input[type=number]::-webkit-outer-spin-button {
     transform: translate(-50%, -50%);
 }
 
-
-.dsada {
-    width: 18px;
-    height: 38px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 37px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #000000;
-}
-
 .number-input button.plus::after {
   transform: translate(-50%, -50%) rotate(90deg);
 }
 
 .number-input input[type=number] {
-    /* width: 12px;
-    height: 26px; */
 
     font-family: 'Roboto';
     font-style: normal;
@@ -986,7 +951,6 @@ button {
     font-weight: bold;
     font-size: 28px;
     line-height: 33px;
-    /* identical to box height */
 
     letter-spacing: 1.65px;
 

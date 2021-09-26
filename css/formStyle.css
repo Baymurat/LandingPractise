@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 849px;
+}
+
+.wrapper {
+    width: 970px;
+    height: 663px;
+}
+
+.booking_tickets {
+    width: 400px;
+    height: 663px;
+}
+
+.title {
+    width: 400px;
+    height: 143px;
+}
+
+.title .text_1 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 55px;
+    text-transform: uppercase;
+
+    color: #9D8665;
+}
+
+.title .text_2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #710707;
+}
+
+.line_stroke {
+    width: 400px;
+    height: 3px;
+    margin-bottom: 60px;
+    background: #740C11;
+    opacity: 0.9;
+}
+
+.input_date {
+    position: relative;
+    width: 190px;
+    height: 45px;
+
+    background: #FFFFFF;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+}
+
+.input_date img {
+    margin: 15px;
+}
+
+.input_date input {
+    position: absolute;
+    margin-top: 12px;
+    width: 130px;
+}
+
+form {
+    margin-top: 60px;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+/* DATE INPUT */
+
+input, select {
+    border: none;
+}
+
+/* input[type="date"]:not(.has-value)::before{ */
+input:not(.has-value)::before{
+    position: absolute;
+    content: attr(placeholder);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    z-index: 99;
+    color: #030303;
+}
+
+::-webkit-datetime-edit {
+    /* padding: 1em;  */
+}
+
+::-webkit-datetime-edit-fields-wrapper { 
+    display: none;
+    background: transparent; 
+    border: none
+}
+
+::-webkit-datetime-edit-text { 
+    /* dots */
+}
+
+::-webkit-datetime-edit-month-field { 
+    color: blue; 
+}
+
+::-webkit-datetime-edit-day-field { 
+    color: green; 
+}
+
+::-webkit-datetime-edit-year-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-text { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #030303;
+}
+
+::-webkit-inner-spin-button { 
+    display: block; 
+    border: none;
+}
+
+::-webkit-calendar-picker-indicator { 
+    width: 17px;
+    height: 17px;
+    background-image: url('../assets/form/arrow.svg');
+}
+
+::-webkit-select-picker-indicator {
+    background-image: url('../assets/form/arrow.svg');
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+/* DATE INPUT */
+
+.first_line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_box {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 20px 0;
+    background: #FFFFFF;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+}
+
+.input_box > input, .input_box select {
+    position: absolute;
+    margin-top: 11px;
+    width: 80%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #030303;
+}
+
+.input_box select {
+    width: 100%;
+}
+
+.input_box img {
+    margin: 14px;
+}
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+/* Firefox */
+::placeholder { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #030303;
+}
+  
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #030303;
+}
+
+/* Microsoft Edge */
+::-ms-input-placeholder { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #030303;
+}
+
+.input_box .icon_phone {
+    margin: 10px 14px;
+}
+
+ /* apply CSS to the select tag of 
+.dropdown-container div*/
+
+select {
+    background: transparent;
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Safari, Chrome, Opera */
+    -webkit-appearance: none;
+}
+
+/* for IE10 */
+select::-ms-expand {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.arrow_select {
+    position: absolute;
+    right: 0;
+}
+
+.select_container {
+    position: relative;
+    width: 100%;
+}
+
+.input_box.entry_ticket {
+    height: 100%;
+}
+
+.ticket_title {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height */
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+
+    color: #9D8665;
+}
+
+.entry_ticket_content {
+    margin: 10px 15px 15px 15px;
+}
+
+.entry_ticket .line_stroke {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.entry_ticket_input_row {
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #030303;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    display: inline-flex;
+    border: 1px solid #000000;
+    height: 27px;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+}
+
+.number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: #030303;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.number-input button::before,
+.number-input button::after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+
+    width: 10px;
+    height: 2px;
+    background-color: #FFFFFF;
+    transform: translate(-50%, -50%);
+}
+
+.number-input button.plus::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+
+    max-width: 5rem;
+    padding: 0;
+    border: solid transparent;
+    border-width: 0 2px;
+    width: 35px;
+    height: 25px;
+    text-align: center;
+}
