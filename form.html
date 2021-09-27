@@ -36,15 +36,11 @@
                     <div class="first_line">
                         <div class="input_date">
                             <img src="./assets/form/icon_date.svg" alt="">
-                            <input onchange="this.className=(this.value != '' ? 'has-value' : '')" placeholder="Date"
-                                type="date">
-                            <!-- <input onblur="this.type='text'" onfocus="this.type ='date'"  placeholder="Date" type="text"> -->
+                            <input placeholder="Date" type="date">
                         </div>
                         <div class="input_date">
                             <img src="./assets/form/icon_time.svg" alt="">
-                            <input onchange="this.className=(this.value != '' ? 'has-value' : '')" placeholder="Time"
-                                type="time">
-                            <!-- <input onblur="this.type='text'" onfocus="this.type ='date'"  placeholder="Date" type="text"> -->
+                            <input placeholder="Time" type="time">
                         </div>
                     </div>
                     <div class="input_box">
@@ -101,5 +97,16 @@
         </div>
     </main>
 </body>
+<script>
+    function onChange(event) {
+        event.target.style.setProperty('--c', 'block')
+        if (event.target.value != '') {
+            event.target.classList.add('has-value')
+        }
+    }
+
+    document.querySelector("input[type='date']").addEventListener('change', onChange)
+    document.querySelector("input[type='time']").addEventListener('change', onChange)
+</script>
 
 </html>

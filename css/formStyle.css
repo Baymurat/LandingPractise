@@ -113,7 +113,7 @@ input:not(.has-value)::before{
 }
 
 ::-webkit-datetime-edit-fields-wrapper { 
-    display: none;
+    display: var( --c, none);
     background: transparent; 
     border: none
 }
