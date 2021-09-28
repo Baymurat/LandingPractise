@@ -26,7 +26,7 @@
 <body>
     <header>
         <div class="wrapper">
-            <img class="logo" src="assets/Logo.svg" alt="Logo" srcset="">
+            <img class="logo" src="assets/Logo.svg" alt="Logo">
             <nav class="header">
                 <ul>
                     <li><a href="#">Visiting</a></li>
@@ -48,27 +48,48 @@
                     <button class="welcome_button">Discover the Louvre</button>
                 </div>
                 <div class="mona_lisa_portret">
-                    <img src="assets/MonaLisa.svg" alt="">
+                    <!-- <img src="assets/MonaLisa.svg" alt=""> -->
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="./assets/welcome-slider/1.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./assets/welcome-slider/2.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./assets/welcome-slider/3.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./assets/welcome-slider/4.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./assets/welcome-slider/5.jpg">
+                        </div>
+                    </div>
                 </div>
                 <div class="slider">
                     <div class="welcome_slide_num">
-                        <p>01</p>
+                        <p id="slider_index_number">01</p>
                         <p>|</p>
                         <p>05</p>
                     </div>
                     <div class="carousel_pagination">
-                        <div class="slide_pagination"></div>
-                        <div class="slide_pagination"></div>
-                        <div class="slide_pagination"></div>
-                        <div class="slide_pagination"></div>
-                        <div class="slide_pagination"></div>
+                        <div class="slide_pagination dot" onclick="currentSlide(1)"></div>
+                        <div class="slide_pagination dot" onclick="currentSlide(2)"></div>
+                        <div class="slide_pagination dot" onclick="currentSlide(3)"></div>
+                        <div class="slide_pagination dot" onclick="currentSlide(4)"></div>
+                        <div class="slide_pagination dot" onclick="currentSlide(5)"></div>
                     </div>
                     <div class="arrows">
                         <div class="arrow_left">
-                            <img src="assets/arrow_left.svg" alt="arrow_left">
+                            <a class="prev" onclick="plusSlides(-1)">
+                                <img src="assets/arrow_left.svg" alt="arrow_left">
+                            </a>
                         </div>
                         <div class="arrow_right">
-                            <img src="assets/arrow_right.svg" alt="arrow_right">
+                            <a class="next" onclick="plusSlides(1)">
+                                <img src="assets/arrow_right.svg" alt="arrow_right">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -82,46 +103,58 @@
                     <div class="virtual_tour_rectangle"></div>
                     <div class="tour_variants">
                         <div class="another_tour">
-                            <img class="tour_image" src="./assets/tour_variants/tour_1.png" alt="">
-                            <p class="tour_title">royal palace</p>
-                            <div class="rectangle_div"></div>
-                            <p class="view_360">360° Virtual Tour</p>
-                            <p class="view_panorama">Google Street Panorama View</p>
+                            <a class="block_anchor" href="" target="blank">
+                                <img class="tour_image" src="./assets/tour_variants/tour_1.png" alt="">
+                                <p class="tour_title">royal palace</p>
+                                <div class="rectangle_div"></div>
+                                <p class="view_360">360° Virtual Tour</p>
+                                <p class="view_panorama">Google Street Panorama View</p>
+                            </a>
                         </div>
                         <div class="another_tour">
-                            <img class="tour_image" src="./assets/tour_variants/tour_2.png" alt="">
-                            <p class="tour_title">demon wing</p>
-                            <div class="rectangle_div"></div>
-                            <p class="view_360">360° Virtual Tour</p>
-                            <p class="view_panorama">Google Street Panorama View</p>
+                            <a class="block_anchor" href="" target="blank">
+                                <img class="tour_image" src="./assets/tour_variants/tour_2.png" alt="">
+                                <p class="tour_title">demon wing</p>
+                                <div class="rectangle_div"></div>
+                                <p class="view_360">360° Virtual Tour</p>
+                                <p class="view_panorama">Google Street Panorama View</p>
+                            </a>
                         </div>
                         <div class="another_tour">
-                            <img class="tour_image" src="./assets/tour_variants/tour_3.png" alt="">
-                            <p class="tour_title">demon wing</p>
-                            <div class="rectangle_div"></div>
-                            <p class="view_360">360° Virtual Tour</p>
-                            <p class="view_panorama">Google Street Panorama View</p>
+                            <a class="block_anchor" href="" target="blank">
+                                <img class="tour_image" src="./assets/tour_variants/tour_3.png" alt="">
+                                <p class="tour_title">demon wing</p>
+                                <div class="rectangle_div"></div>
+                                <p class="view_360">360° Virtual Tour</p>
+                                <p class="view_panorama">Google Street Panorama View</p>
+                            </a>
                         </div>
                         <div class="another_tour">
-                            <img class="tour_image" src="./assets/tour_variants/tour_4.png" alt="">
-                            <p class="tour_title">demon wing</p>
-                            <div class="rectangle_div"></div>
-                            <p class="view_360">360° Virtual Tour</p>
-                            <p class="view_panorama">Google Street Panorama View</p>
+                            <a class="block_anchor" href="" target="blank">
+                                <img class="tour_image" src="./assets/tour_variants/tour_4.png" alt="">
+                                <p class="tour_title">demon wing</p>
+                                <div class="rectangle_div"></div>
+                                <p class="view_360">360° Virtual Tour</p>
+                                <p class="view_panorama">Google Street Panorama View</p>
+                            </a>
                         </div>
                         <div class="another_tour">
-                            <img class="tour_image" src="./assets/tour_variants/tour_5.png" alt="">
-                            <p class="tour_title">demon wing</p>
-                            <div class="rectangle_div"></div>
-                            <p class="view_360">360° Virtual Tour</p>
-                            <p class="view_panorama">Google Street Panorama View</p>
+                            <a class="block_anchor" href="" target="blank">
+                                <img class="tour_image" src="./assets/tour_variants/tour_5.png" alt="">
+                                <p class="tour_title">demon wing</p>
+                                <div class="rectangle_div"></div>
+                                <p class="view_360">360° Virtual Tour</p>
+                                <p class="view_panorama">Google Street Panorama View</p>
+                            </a>
                         </div>
                         <div class="another_tour">
-                            <img class="tour_image" src="./assets/tour_variants/tour_6.png" alt="">
-                            <p class="tour_title">demon wing</p>
-                            <div class="rectangle_div"></div>
-                            <p class="view_360">360° Virtual Tour</p>
-                            <p class="view_panorama">Google Street Panorama View</p>
+                            <a class="block_anchor" href="" target="blank">
+                                <img class="tour_image" src="./assets/tour_variants/tour_6.png" alt="">
+                                <p class="tour_title">demon wing</p>
+                                <div class="rectangle_div"></div>
+                                <p class="view_360">360° Virtual Tour</p>
+                                <p class="view_panorama">Google Street Panorama View</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -140,9 +173,18 @@
                     <p class="explore_text">The cleaning provoked furious protests, not because the picture had been
                         damaged in any way, but because it looked different.</p>
                     <div class="explore_picture_container">
-                        <img src="./assets/explore_section/picture_1.png" alt="">
+                        <div class="after">
+                            <img src="./assets/explore_slider/after.jpg" alt="">
+                        </div>
+                        <div class="before">
+                            <img src="./assets/explore_slider/before.jpg" alt="">
+                        </div>
+                        <div class="scroller">
+                            <img src="./assets/explore_slider/vertical_slider.png" alt="">
+                        </div>
+                        <!-- <img src="./assets/explore_section/picture_1.png" alt="">
                         <img class="picture_2" src="./assets/explore_section/picture_2.png" alt="">
-                        <img class="explore_slider" src="./assets/explore_section/explore_slider.png" alt="">
+                        <img class="explore_slider" src="./assets/explore_section/explore_slider.png" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -430,6 +472,7 @@
             <p>Eblan Eblanov</p>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
